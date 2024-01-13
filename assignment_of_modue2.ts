@@ -55,7 +55,7 @@ const result = filterByType(arr, 'number');
 //     // country is now optional
 // };
 
-console.log(partialObject)
+// console.log(partialObject)
 
 // Exercise 4: Mapped Type for Required Properties
 // Create a mapped type called MakeRequired that takes an object type and 
@@ -84,5 +84,12 @@ console.log(partialObject)
 // Exercise 5: Conditional Type for Nullable
 // Create a conditional type Nullable<T> that, given a type T, 
 // returns T | null. Test it with different types.
+type Nullable<T> = T extends null ? T : T | null;
+// Examples
+type is_null = Nullable<null>;  
+type is_String = Nullable<string>;  
+type is_Number = Nullable<number>;
 
+let a:is_Number = 10;
+// console.log(typeof a);
 
