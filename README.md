@@ -68,3 +68,7 @@ Module 4: Project
     TypeScript documentation
     Online tutorials and articles
     TypeScript community forums
+
+
+// ChatGpt course Link
+https://chat.openai.com/share/3f14e0c6-a3c9-4242-9541-b8f8221309e3
